@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        margin: 0px;
+        height: 295vh;
+    }
+    .navbar {
+        width: 100%;
+        height: 40px;
+        /* background-color: gray; */
+        display: flex;
+    }
+    .nav-left {
+        width: 20%;
+        height: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .nav-center {
+        width: 60%;
+        height: 100%;
+        /* background-color: red; */
+    }
+    .nav-right {
+        width: 20%;
+        height: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .heading-1 {
+        margin: 0px;
+        font-size: 15px;
+        color: goldenrod;
+    }
+    .center-1 {
+        width: 100%;
+        height: 70%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .center-2 {
+        width: 100%;
+        height: 25%;
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading-2 {
+        margin: 0px;
+        font-size: 25px;
+    }
+    .para-1 {
+        margin: 0px;
+        font-size: 15px;
+    }
+    button {
+        height: 20px;
+        border-radius: 20%;
+        color: goldenrod;
+        border-color: goldenrod;
+        /* border: 10px; */
+    }
+    .div-1 {
+        width: 100%;
+        height: 25vh;
+        /* background-color: gray; */
+        margin-top: 20px;
+    }
+    .img-1 {
+        width: 420px;
+        height: 230px;
+        position: relative;
+        top: 0px;
+    }
+    .div-2 {
+        width: 100%;
+        height: 5%;
+        /* background-color: blue; */
+        position: absolute;
+        top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .heading-3 {
+        margin: 0px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        
+    }
+    .home-1 {
+        width: 100% ;
+        height: 30px;
+        /* background-color: blue; */
+        margin-top: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-text-1 {
+        margin: 0px;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        font-size: 10px;
+    }
+    .div-3 {
+        width: 100%;
+        height: 30vh;
+        /* background-color: gray; */
+        
+    }
+    .div-4 {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        /* background-color: red; */
+    }
+    .div-5 {
+        width: 50%;
+        height: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-2 {
+        width: 100px;
+        height: 100px;
+    }
+    .div-6 {
+        width: 100%;
+        height: 30vh;
+        background-color: yellow;
+    }
+    .img-3 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0px;
+    }
+    .div-7 {
+        /* background-color: rgb(98, 0, 255); */
+        width: 80%;
+        height: 25%;
+        position: absolute;
+        top: 620px;
+        margin-left: 40px;
+        border: 5px solid white ;
+    }
+    .heading-4 {
+        margin: 0px;
+        margin-left: 150px;
+        /* color: white; */
+    }
+    .para-2 {
+        margin-left: 5px;
+        /* color: white; */
+    }
+    .div-8 {
+        background-color: lightgray;
+        width: 100%;
+        height: 62vh;
+        margin: 0px;
+    }
+    .News-heading {
+        width: 100%;
+        height: 40px;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 20px; */
+    }
+    .heading-5 {
+        /* margin: 0px; */
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .div-9 {
+        width: 80%;
+        height: 25vh;
+        background-color: yellow;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .img-div {
+        width: 100%;
+        height: 70%;
+        background-color: brown;
+    }
+    .img-info {
+        width: 100%;
+        height: 30%;
+        background-color: rgb(255, 255, 255);
+    }
+    .img-4 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0px;
+    }
+    .div-10 {
+        width: 20%;
+        height: 10%;
+        background-color: white;
+        position: absolute;
+        top: 950px;
+        margin-left: 20px;
+    }
+    .heading-6 {
+        margin: 0px;
+        font-size: 65px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .para-3 {
+        margin: 0px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .div-11 {
+        width: 80%;
+        height: 25vh;
+        background-color: yellow;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .div-plant {
+        width: 100%;
+        height: 70%;
+        background-color: blue;
+    }
+    .img-5 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0px;
+    }
+    .img-info-1 {
+        width: 100%;
+        height: 30%;
+        background-color: white;
+    }
+    .div-12 {
+        width: 20% ;
+        height: 10vh;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 1200px;
+        margin-left: 20px;
+    }
+    .heading-7 {
+        font-size: 70px;
+        margin: 0px;
+        margin-left: 7px;
+    }
+    .div-gallery {
+        width: 100%;
+        height: 30vh;
+        /* background-color: red; */
+    }
+    .gallery-h1 {
+        width: 100%;
+        height: 40px;
+        /* background-color: gray; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading-8 {
+        margin: 0px;
+        font-size: 20px;
+    }
+    .div-13 {
+        width: 100%;
+        height: 26vh ;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+    }
+    .div-14 {
+        margin-top: 5px;
+        width: 50%;
+        height: 101% ;
+        background-color: rgb(255, 255, 255);
+    }
+    .div-15 {
+        
+        margin-left: 5px;
+        width: 50%;
+        height: 100% ;
+        background-color: rgb(255, 255, 255);
+    }
+    .div-16 {
+        margin-top: 5px;
+        width: 100%;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+    }
+    .img-6 {
+        width: 100%;
+        height: 100%;
+    }
+        </style>
+</head>
+<body>
+    <!-- --------- navbar -------- -->
+    <div class="navbar">
+        <div class="nav-left">
+            <h1 class="heading-1">Join Now</h1>
+        </div>
+
+        <div class="nav-center">
+            <div class="center-1">
+                <h1 class="heading-2">wolshino</h1>
+            </div>
+            <div class="center-2">
+                <p class="para-1">free website</p>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <button> Download</button>
+        </div>
+    </div>
+    <!-- --------- navbar -------- -->
+   
+    <!-- ------------ img ----------- -->
+ 
+    <div class="div-1">
+        <img class="img-1" src="https://themsquare.com.pk/wp-content/uploads/2024/07/3d-house-2.webp" alt="">
+        <div class="div-2">
+            <h1 class="heading-3">Veil Project</h1>
+        </div>
+  
+    </div>
+    <!-- ------------ img ----------- -->
+    <!-- ---------------- 6 house type heading ------------------  -->
+    <div class="home-1" >
+        <div class="home-text-1">
+            <h1> -------- 6 House Type -------- </h1>
+        </div>
+    </div>
+    <!-- ---------------- 6 house type heading ------------------  -->
+    <!-- ---------------- House shadow ---------------  -->
+    <div class="div-3">
+        <div class="div-4">
+            <div class="div-5">
+                <img class="img-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjITdrgVsWKQuOZuX3GxZFyxsDRZ8Z_9Rbzg&s" alt="">
+            </div>
+            <div class="div-5">
+                <img class="img-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjITdrgVsWKQuOZuX3GxZFyxsDRZ8Z_9Rbzg&s" alt="">
+            </div>
+        </div>
+      
+        <div class="div-4">
+            <div class="div-5">
+                <img class="img-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjITdrgVsWKQuOZuX3GxZFyxsDRZ8Z_9Rbzg&s" alt="">
+
+            </div>
+            <div class="div-5">
+                <img class="img-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjITdrgVsWKQuOZuX3GxZFyxsDRZ8Z_9Rbzg&s" alt="">
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------- House shadow ---------------  -->
+    <!-- ------------------ plant img-2 --------------  -->
+    <div class="div-6">
+        <img class="img-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqav2uj3nUUD8i_y4LJkG6UD2ztnbKB5wKyg&s" alt="">
+        <div class="div-7">
+            <h1 class="heading-4">Notice</h1>
+            <p class="para-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem atque commodi facilis eos sunt aut nam culpa placeat recusandae, nisi excepturi ea iure quam neque vitae perspiciatis saepe laborum voluptatem?</p>
+        </div>
+    </div>
+    <!-- ------------------ plant img-2 --------------  -->
+    <div class="div-8">
+        <div class="News-heading">
+            <h1 class="heading-5">NEWS</h1>
+        </div>
+        <div class="div-9">
+        <div class="img-div">
+            <img class="img-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSULcL_fMJE1TpbCYDRx3xqZrzvTrckzlo3QQ&s" alt="">
+            <div class="div-10">
+                <h1 class="heading-6">
+                    08
+                </h1>
+            </div>
+        </div>
+        <div class="img-info">
+            <p class="para-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, velit maiores quia odio consectetur provident nemo labore, sed, dolores dolore voluptate tenetur! Nemo nata.</p>
+        </div>
+        </div>
+
+        <div class="div-11">
+            <div class="div-plant">
+                <img class="img-5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUig-ejWFVwmTwdtKZYibtU4iXftMwwg5aNA&s" alt="">
+                <div class="div-12">
+                    <h1 class="heading-7">09</h1>
+                </div>
+            </div>
+            <div class="img-info-1">
+            <p class="para-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, velit maiores quia odio consectetur provident nemo labore, sed, dolores dolore voluptate tenetur! Nemo nata.</p>
+                
+            </div>
+        </div>
+    
+    </div>
+    <!-- ------------------ plant img-2 --------------  -->
+    <!-- ------------------ Gallery --------------  -->
+    <div class="div-gallery">
+        <div class="gallery-h1">
+            <h1 class="heading-8">GALLERY</h1>
+        </div>
+        <div class="div-13">
+            <div class="div-14">
+                <img class="img-6" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/29/5c/img-worlds-of-adventure.jpg?w=900&h=500&s=1" alt="">
+            </div>
+            <div class="div-15">
+                <div class="div-16">
+                    <img class="img-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjfEVWVqmdR82XU2f9eUuDJ_NMbmamzi0TZQ&s" alt="">
+                </div>
+                <div class="div-16">
+                    <img class="img-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm66w2lyOm4KAg0nx00FcynvGfJm2JLAI-oA&s" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+       
+
+
+
+</body>
+</html>
