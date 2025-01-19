@@ -3,30 +3,408 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ALI-EXPERT</title>
     <style>
- .div-1 {
+        body {
+            margin: 0px;
+            background-color: purple;
+        }
+.background {
         width: 100%;
-        height: 70vh;
+        height: 60vh;
+        background-color: red;
+        }
+        .background-1 {
+            /* background-image: url(https://www.shutterstock.com/shutterstock/videos/1095962537/thumb/7.jpg?ip=x480); */
+            width: 100%;
+            height: 100%;
+            background-color: yellow;
+            /* background-repeat: no-repeat; */
+        }
+        .img-1 {
+            width: 100%;
+            height: 60%;
+            position: absolute;
+            top: 0px;
+        }
+        .navbar {
+            width: 100%;
+            height: 10%;
+            /* background-color: yellow; */
+            position: relative;
+            top: 0px;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-1 {
+            width: 70%;
+            height: 100%;
+            /* background-color: red; */
+            display: flex;
+        }
+        .nav-2 {
+            width: 6%;
+            /* background-color: gray; */
+            height: 100%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        .img-2 {
+            width: 40px;
+            height: 40px;
+        }
+        .nav-3 {
+            width: 25%;
+            /* background-color: blue; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+        }
+        .h-1 {
+            margin: 0px;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        .nav-4 {
+            width: 10%;
+            /* background-color: orange; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .nav-5 {
+            width: 10%;
+            /* background-color: orange; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+        .nav-6 {
+            width: 6%;
+            /* background-color: blue; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .nav-7 {
+            width: 6%;
+            /* background-color: blue; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .h-2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: white;
+        }
+        .div-1 {
+            width: 100%;
+            height: 90%;
+            /* background-color: yellow; */
+            position: relative;
+            top: 0px;
+            display: flex;
+            justify-content: center;
+        }
+        .div-2 {
+            width: 68%;
+            height: 100%;
+            /* background-color: red; */
+            display: flex;
+        }
+        .for-names {
+            width: 45%;
+            height: 100%;
+            /* background-color: blue; */
+        }
+        .for-pic {
+            width: 55%;
+            height: 100%;
+            /* background-color: purple; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .empty {
+            width: 100%;
+            height: 30%;
+            /* background-color: orange; */
+        }
+        .name-1 {
+            width: 100%;
+            height: 10%;
+            /* background-color: gray; */
+        }
+        .h-3 {
+            margin: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            color: white;
+        } 
+        .name-2 {
+            width: 100%;
+            height: 10%;
+            /* background-color: lightgreen; */
+            
+        }  
+        .h-4 {
+            margin: 0px;
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }   
+        .name-3 {
+            width: 100%;
+            height: 10%;
+            /* background-color: black; */
+            display: flex;
+            align-items: center;
+        }
+        .para-1 {
+            margin: 0px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+        .button {
+            width: 100%;
+            height: 10%;
+            /* background-color: green; */
+        }
+        .button-1 {
+            background-color: purple;
+            color: white;
+            height: 30px;
+            width: 80px;
+            border-radius: 20px;
+            border: 1px solid black;
+        }
+        .img-3 {
+            width: 100%;
+            height: 80%;
+        }
+        .function {
+            width: 100%;
+            height: 66%;
+            background-color: purple;
+            display: flex;
+            justify-content: center;
+        }
+        .function-1 {
+            width: 70%;
+            height: 100%;
+            /* background-color: yellow; */
+        }
+        .empty-1 {
+            width: 100%;
+            height: 20%;
+            /* background-color: red; */
+        }
+        .fun-1 {
+            width: 100%;
+            height: 80%;
+            /* background-color: blue; */
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+        .div-3 {
+            /* background-color: orange; */
+            width: 33%;
+            height: 100%;
+        }
+        .txt-1 {
+            width: 100%;
+            height: 10%;
+            /* background-color: yellow; */
+            display: flex;
+            align-items: end;
+        }
+        .txt-1 {
+            color: white;
 
-        
-background: #fc4a1a;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            margin: 0px;
+            font-size: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .text-2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            color: white;
 
- }       
+        }
+        .text-3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px ;
+            margin: 0px;
+            color: white;
+        }
+        .icon-1 {
+            width: 100%;
+            height: 30%;
+            /* background-color: gray; */
+        }
+        .pic-1 {
+            width: 25%;
+            height: 90%;
+            /* background-color: lightgreen; */
+            border: 1px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text-4 {
+            margin-top: 10px;
+            width: 100%;
+            height: 10%;
+            /* background-color: pink; */
+        }
+        .h-5 {
+            margin: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 15px;
+            color: white;
+
+        }
+        .text-5 {
+            width: 100%;
+            height: 40%;
+            /* background-color: gray; */
+        }
+        .para-2 {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            color: white;
+        }
+        .img-4 {
+            width: 70px;
+        }
+        .img-5 {
+            width: 100px;
+        }
     </style>
 </head>
 <body>
-    <h1>
-        ALI MUHAMMAD 
-    </h1>
-    <div class="div-1">
-        Ali Muhammad 
-    </div>
+    <div class="background">
+        <div class="background-1">
+            <img class="img-1" src="https://www.shutterstock.com/shutterstock/videos/1095962537/thumb/7.jpg?ip=x480" alt="">
+            <div class="navbar">
+                <div class="nav-1">
+                    <div class="nav-2">
+                        <img class="img-2" src="https://media-hosting.imagekit.io//50295776011a40a4/Modern_A_Letter_Logo-removebg-preview.png?Expires=1831889653&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=djJFaU-mN3xgGBoww6Pl8r-1MV3HBnvngi-kcZbZcE~~vF630ktwC4KmbAMaubO1VhDvY6ElsuCio1i2ZaLKtW~O5LJIqcNDaKHdLwSirpEwtWAcdbEjTHRKuKDgxOkAOuZkLXrEJV7PtathH1ek8fSj7IS8rJIki3-cbnM3~Hjdg76B8Sog03wPVUJCX6fxtgYImNMA8CkOMfFBVkJCZoFiulArR7rx9adwPauSar1NYWBihoE1zNKHmSE4HG7yNeWM9-sfp9lk34RxQQOY5pFDAdS-LiV9qVHj1zHNLVIpDpa~xdo5bIIKCGKAHiCQOjtLqkF0e3YHvwLLY0AcXQ__" alt="">
+                    </div>
+                    <div class="nav-3">
+                        <h1 class="h-1">ALI-EXPERT</h1>
+                    </div>
+                    <div class="nav-4">
+                        <h4 class="h-2">HOME</h4>
+                    </div>
+                    <div class="nav-4">
+                        <h4 class="h-2"> ABOUT </h4>
+                    </div>
+                    <div class="nav-4">
+                        <h4 class="h-2">PORTFOLIO</h4>
+                    </div>
+                    <div class="nav-5">
+                      <a href="https://wa.me/923422531403">  <h4 class="h-2">CONTACT</h4> </a>
+                    </div>
+                    <div class="nav-6"></div>
+                    <div class="nav-6"></div>
+                    <div class="nav-6"></div>
+                    <div class="nav-7"></div>
+                </div>
+            </div>
+            <!-- ------------- navbar ---------------  -->
+            <div class="div-1">
+                <div class="div-2">
 
-    <a href="assighment.html"> Go to Assignment 1</a>
-    <a href="Mobile version.html"> Mobile version</a>
-    <a href=""></a>
+                    <div class="for-names">
+                        <div class="empty"></div>
+                        <div class="name-1">
+                            <h1 class="h-3">HI,</h1>
+                        </div>
+                        <div class="name-2">
+                            <h1 class="h-4">I'M ALI MUHAMMAD.</h1>
+                        </div>
+                        <div class="name-3">
+                            <p class="para-1">FOR WEBSITES AND PORTFOLIO</p>
+                        </div>
+                        <div class="button">
+                            <button class="button-1">Click Here</button>
+                        </div>
+                    </div>
+
+                    <div class="for-pic">
+                        <img class="img-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTdV7f5iJVfN3gI5qhCkIeOWIZ9lSjHglXFg&s" alt="">
+                    </div>
+              
+                </div>
+            </div>
+            <div class="function">
+                <div class="function-1">
+                    <div class="empty-1"></div>
+                    <div class="fun-1">
+
+                        <div class="div-3">
+                            <div class="txt-1"> OUR SERVICES</div>
+                          <b>  <div class="text-2">MY WORKS</div> </b>
+                       <br>
+                       
+                       <div class="text-3">
+                        <p>If you have a webdesigner of our team  you will <br>
+                        get a portfolio to make a custom website <br>
+                    for your bussiness and once the project is over.</p>
+                       </div>
+                        </div>
+
+                        <div class="div-3">
+                            <div class="icon-1">
+                          <a href="Behance.html">   <div class="pic-1">
+                                <img class="img-4" src="https://media-hosting.imagekit.io//44987a5b37c04a28/%D0%A1%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB_%D0%B1%D1%83%D0%BA%D0%B2%D1%8B_S_%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F_%D1%81_%D0%B1%D1%83%D0%BA%D0%B2%D0%BE%D0%B9_B___%D0%9F%D1%80%D0%B5%D0%BC%D0%B8%D1%83%D0%BC_%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%8B-removebg-preview.png?Expires=1831905241&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=iB0mnwQrGUmm0E74mjYjoTg~8uNfTV6ThnpRqNeM7HRKDg8h0gkBxWR3hGsHwPFdLfJAwudGH2xqG43QQSYKGhZR2JqyjES05iGaRErkFYoMlYp4ajy06JLgEKSToyCPtWLXTxkv0oy4dbg7r7kmP-SaaYVSoypGsNpl92PKBw095MxSqEV2rDvXu0XGnFJ~s-xdb1bo4f3qmlc9X4jgAMfcXK5Uw1Hu7m-k1UiDvF~JcNjhb0llrYUYnIPqo~rIaTIU34~yJvny9wPIcp8uDTkXigAFY69MYWhfx~okVL0AYfrwO72E1mRRyMxXJiKdhCFCLzvEP9Y5nu8pyCtCuA__" alt="">
+                            </div>
+                        </a>    
+                        </div>
+                            <div class="text-4">
+                                <h3 class="h-5">Behance Website</h3>
+                            </div>
+                            <br>
+                            <div class="text-5">
+                                <p class="para-2">Whether you're holfway through the editing <br> 
+                                    process. or you haven't even started our  post <br>
+                                production services can put the finishing bouchers.</p>
+                            </div>
+                        </div>
+
+                        <div class="div-3">
+                            <div class="icon-1">
+                            <a href="desktop version.html">    <div class="pic-1">
+                                    <img class="img-5" src="https://media-hosting.imagekit.io//4174ffb1cfdb498a/WE_Logo-removebg-preview.png?Expires=1831905378&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EbA~8DRczweCzIaR~rGFqOg2xfKmNc-3QdmFJXJqY7psX-HfDG4G6l2vofLNU~W0bwdA-0vIeRi0s6zpKIbtHC3qS~0R3ngOUbYnhStNm2Fos~omjucjPLxXtUF4tOwsxb4Cq7Me-o4KaA63mA6TmNgB3W7nirikFOITBQU79Nu~PZGDKGxI-vPS2xcqvXjQwi3MyYyEDIPgIed5NNDBKRliXfVQmG4QKpnImfSESKVkxtVROhgiI3UxN9P-Pj0gUZkjc5qD0VS07feVTXufWEXaaBzU3yMCsIx5o68OwG6IGhw7sBMnVzCvoUbFzsDewQxNCnMiKzQ4~k3k9iOqNQ__" alt="">
+                                </div>
+                            </a>   
+                            </div>
+                                <div class="text-4">
+                                    <h3 class="h-5">Wolshino Website</h3>
+                                </div>
+                                <br>
+                                <div class="text-5">
+                                    <p class="para-2">Whether you're holfway through the editing <br> 
+                                    process. or you haven't even started our  post <br>
+                                production services can put the finishing bouchers.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+    
+    </div>
 </body>
 </html>
